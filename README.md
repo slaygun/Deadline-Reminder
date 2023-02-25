@@ -11,9 +11,9 @@ Run the setup.sh
       ./setup.sh
 Note-
 
--Change the path of mail.py according to your directory
-*nohup.out will store the system output
-+crontab schedule expression can be changed as per the need. Checkout https://crontab.guru/
+- Change the path of mail.py according to your directory
+* nohup.out will store the system output
++ crontab schedule expression can be changed as per the need. Checkout https://crontab.guru/
      
 ### For Windows -
 
