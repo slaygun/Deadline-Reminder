@@ -11,7 +11,7 @@ Run the setup.sh
       ./setup.sh
 Note-
 
-*Change the path of mail.py according to your directory
+*Change the path of mail.py according to your directory*
 
 nohup.out will store the system output
 
