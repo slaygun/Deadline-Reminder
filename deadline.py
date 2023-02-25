@@ -23,7 +23,7 @@ if rep.status_code!=200:
 # Body of the message which we will send via mail
 body=""
 sub_body=""
-link="https://lms.bennett.edu.in/my/index.php"
+#link="https://lms.bennett.edu.in/my/index.php"
 body+='{0}\n\n'.format(deadline)
 
 for event in cal.walk('vevent'):
@@ -42,7 +42,7 @@ if sub_body=="":
     body=sub_body
 elif sub_body!="":
     body+=sub_body
-    body+=link       
+    #body+=link       
 print(body)
       
 
