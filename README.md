@@ -5,7 +5,7 @@ I have made it to get assignment deadlines from LMS website of my university.
 
 # How to automate the script to get reminders automatically
 For Linux -
-Run the setup.sh file in the
+Run the setup.sh
 
       cd Deadline-Reminder
       ./setup.sh
@@ -14,7 +14,7 @@ Note- Change the path of mail.py according to your directory
       crontab schedule expression can be changed as per the need. Checkout https://crontab.guru/
       
 For Windows -
-    1. Open the Task Scheduler by searching for it in the Start Menu or by typing taskschd.msc in the Run dialog box (press Win+R to open the Run dialog box).
+    1. Open the Task Scheduler by searching for it in the Start Menu or by typing taskschd.msc in the Run dialog box (press Win+R to open the Run dialog box).\n
     2. Click on the "Create Task" link in the right-hand pane.
     3. In the "General" tab, give your task a name and description.
     4. In the "Triggers" tab, click on "New" and select "Daily" if you want to run the task every day. You can then specify the start date and time, as well as the frequency and duration of the task.
