@@ -8,7 +8,8 @@ deadline=date.today() + timedelta(1)
 deadline=str(deadline)
 
 # iCal URL
-url="https://lms.bennett.edu.in/calendar/export_execute.php?userid=6485&authtoken=ecf6b79c084834aa2c25197da04edfe54392339e&preset_what=all&preset_time=custom"
+url="add your ics url"
+#url="https://lms.bennett.edu.in/calendar/export_execute.php?userid=6485&authtoken=ecf6b79c084834aa2c25197da04edfe54392339e&preset_what=all&preset_time=custom"
 rep=(requests.get(url))
 
 cal = Calendar.from_ical(rep.text)
