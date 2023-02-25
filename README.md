@@ -2,6 +2,9 @@
 Python script which gets .ics file (calendar file format) and checks deadlines for next day and emails you if there is any.
 I have made it to get assignment deadlines from LMS website of my university.
 
+      cd Deadline-Reminder
+      pip install -r requirements.txt
+      
 ## How to automate the script to get reminders automatically
 ### For Linux -
 
