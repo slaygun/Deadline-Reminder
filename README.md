@@ -10,6 +10,7 @@ Run the setup.sh
       cd Deadline-Reminder
       ./setup.sh
 Note-
+
 -Change the path of mail.py according to your directory
 *nohup.out will store the system output
 +crontab schedule expression can be changed as per the need. Checkout https://crontab.guru/
