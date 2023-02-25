@@ -6,7 +6,7 @@ import deadline
 # Email content
 email = MIMEMultipart()
 email['From'] = 'sender@gmailcom'  #from which u will send the email (do 2-step auth and create app password in google account settings)
-email['To'] = 'reciever@gmail.com' #whereu will get the email
+email['To'] = 'reciever@gmail.com' #where u will get the email
 email['Subject'] = 'Deadline tomorrow'
 
 #Retrieving the data from deadline.py
